@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="nav-no-js">
+
+<!-- Mirrored from mvcsoftonline.com/html/riseup/index-one.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 19 Oct 2017 07:33:55 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="~/Content/images/favicon.ico">
+    <link rel="shortcut icon" type="image/png" href="~/Content/images/favicon.ico">
+    <title>Lider Su Arıtma Sistemleri</title>
+    <link rel="stylesheet" href="~/Content/css/materialize.css">
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="~/Content/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/style.css">
+    <!-- Responsive stylesheet  -->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/responsive.css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    @RenderSection("custompageCss", required: false)
+
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status"></div>
+    </div>
+    <section class="topbar-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-11 col-md-8 center767">
+                    <ul class="topbar-info">
+                        <li><p>+90 (242) 334 82 80</p></li>
+                        <li><p>/</p></li>
+                        <li><p>+90 (555) 008 08 09</p></li>
+                       
+                        <li><p><a href="#">info@lideraritma.com</a></p></li>
+                        <li><p>Memurevleri Mahallesi, Turgut Reis Cd. 72/A Muratpaşa/Antalya</p></li>
+                    </ul>
+                </div>
+                <div class="col-lg-1 col-md-4 ml-auto">
+                    <ul class="topbar-social text-right center767">
+                        <li><a href="https://tr-tr.facebook.com/people/Lider-Su-Arıtma/100022615119889"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.instagram.com/aritmalidersu/"><i class="fa fa-instagram" aria-hidden="true"></i></i></a></li>
+                        @*<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>*@
+                        @*<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>*@
+                      
+                      
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Main Header Start -->
+    @Html.Partial("_Header")
+
+    @RenderBody()
+
+    <!-- Copyright Start -->
+    @Html.Partial("_Footer")
+
+
+    <a href="#" class="scrollup">
+        <i class="fa fa-long-arrow-up" aria-hidden="true"></i>
+    </a>
+    <!-- jQuery -->
+    <script type="text/javascript" src="~/Content/js/jquery.min.js"></script>
+    <!-- Popper js -->
+    <script type="text/javascript" src="~/Content/js/popper.min.js"></script>
+    <!-- Bootstrap Min js -->
+    <script type="text/javascript" src="~/Content/js/bootstrap.min.js"></script>
+    <!-- imagesloaded -->
+    <script type="text/javascript" src="~/Content/js/imagesloaded.min.js"></script>
+    <!-- materialize.min -->
+    <script type="text/javascript" src="~/Content/js/materialize.min.js"></script>
+    <!-- typing js -->
+    <script type="text/javascript" src="~/Content/js/typing.js"></script>
+    <!-- css3-animate-it -->
+    <script type="text/javascript" src="~/Content/js/css3-animate-it.js"></script>
+    <!-- VideoPopUp -->
+    <script type="text/javascript" src="~/Content/js/VideoPopUp.jquery.js"></script>
+    <!-- counterup -->
+    <script type="text/javascript" src="~/Content/js/jquery.counterup.min.js"></script>
+    <!-- waypoints -->
+    <script type="text/javascript" src="~/Content/js/jquery.waypoints.min.js"></script>
+    <!-- filterizr -->
+    <script type="text/javascript" src="~/Content/js/jquery.filterizr.min.js"></script>
+    <!-- carousel -->
+    <script type="text/javascript" src="~/Content/js/owl.carousel.min.js"></script>
+    <!-- jarallax -->
+    <script type="text/javascript" src="~/Content/js/jarallax.min.js"></script>
+    <!-- lightbox -->
+    <script type="text/javascript" src="~/Content/js/jquery.magnific-popup.min.js"></script>
+    <!-- Main Custom JS -->
+    <script type="text/javascript" src="~/Content/js/custom.js"></script>
+
+
+
+    @RenderSection("custompageJs", required: false)
+</body>
+
+</html>

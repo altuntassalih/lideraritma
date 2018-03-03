@@ -1,0 +1,84 @@
+﻿
+@{
+    ViewBag.Title = "Kurumsal";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+@Html.Partial("_PageTitle")
+
+<!-- About Start -->
+<section class="about-section about-two-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 col-lg-6">
+                <div class="about-col">
+                    <h2>Neden Biz?</h2>
+                    <h5>Huzurlu bir hayat sağlıklı bir yaşamdan geçer.</h5>
+                    <p class="para-space">Lider Arıtma; sektörde yıllardır edindiği tecrübelerini müşterilerine sunmak amacıyla kurulmuştur. arıtma sektöründeki teknolojik yenilikleri insanların yaşam standartlarına uygulayarak konforu ekonomik, güvenli ve kaliteli bir şekilde sunmuştur. Akdeniz bölgesinde yaygın servis ağı ile sitelerden apartmanlara, dairelerden bireysel kullanıcılara, sanayi kuruluşlarından, otel, tatil köylerine kadar tüm arıtma, bakım onarım ve proje taahhüt işlerinizde çözüm ortağınız olmaya devam ediyoruz..</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="about-box">
+                                <i class="icofont icofont-dart"></i>
+                                <h4>Vizyonumuz</h4>
+                                <p>Koşulsuz müşteri ve çalışan memnuniyeti felsefesini benimsemiş, sektör lideri ve itibarlı tanınmış bir marka olmak.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="about-box">
+                                <i class="icofont icofont-idea"></i>
+                                <h4>Misyonumuz</h4>
+                                <p>Sektördeki yeniliklerde lider olmak, bireysel ve kurumsal anlamda sürekli gelişmek, teknolojinin tüm imkanlarını çalışanlarına ve müşterilerine sunmak.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="about-box">
+                                <i class="icofont icofont-pie-chart"></i>
+                                <h4>Kalite Politakımız</h4>
+                                <p>Müşterilerimizin ihtiyaçlarını daimi karşılayacak ürünler sunmak temel amacımızdır.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="about-box">
+                                <i class="icofont icofont-money-bag"></i>
+                                <h4>SORUMLULUK</h4>
+                                <p>Yaptığımız işlerde konuyu ve etkilerini bütünüyle görmek, insiyatif almak ve sonuçlarını üstlenmek.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6">
+                <div class="about-col about-img">
+                    <img src="~/Content/images/about/1.jpg" alt="">
+                    <div class="about-info">
+                        <h4>İlkemiz</h4>
+                        <p> Lider Arıtma olarak ilkeli hizmeti müşterilerimize karşı saygı olarak görmekteyiz. Çevreye ve doğaya karşı sorumluluklarımızı yerine getirmeyi, en iyi kalitede ürünler sunmayı, dürüst ve ilkeli çalışmayı taahhüt ederiz.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section custompageCss{
+
+}
+
+@section custompageJs{
+
+    <script type="text/javascript">
+       $(document).ready(function(){
+           var dropDown = $('li.dropdown');
+           dropDown.on({
+               mouseenter: function () {
+                   dropDown.clearQueue();
+                   $(this).find('.dropdown-menu').fadeIn();
+               },
+               mouseleave: function () {
+                   dropDown.find('.dropdown-menu').fadeOut();
+               }
+           });
+       });
+    </script>
+}
